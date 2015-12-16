@@ -18,7 +18,7 @@
 #define CONFIG_MMCROOT			"/dev/mmcblk0p2"
 #if defined(CONFIG_MX6Q)
 //#define CONFIG_DEFAULT_FDT_FILE	"imx6q-sabresd-ldo.dtb"
-#define CONFIG_DEFAULT_FDT_FILE       "imx6q-sabresd.dtb"
+#define CONFIG_DEFAULT_FDT_FILE      	"hio-imx6q-board.dtb"
 #elif defined(CONFIG_MX6DL)
 #define CONFIG_DEFAULT_FDT_FILE	"imx6dl-sabresd.dtb"
 #endif
